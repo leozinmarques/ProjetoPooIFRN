@@ -1,0 +1,16 @@
+﻿<Window x:Class="View.NormalWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:View"
+        mc:Ignorable="d"
+        Title="Acervo" Height="300" Width="471">
+    <Grid>
+        
+        <TextBox HorizontalAlignment="Center" FontSize="12" Height="28" Margin="279,5,92,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top" Width="92"/>
+        <Button Content="Pesquisar" HorizontalAlignment="Left" Height="28" Margin="376,5,0,0" VerticalAlignment="Top" Width="77"/>
+        <DataGrid HorizontalAlignment="Left" Height="217" Margin="10,46,0,0" VerticalAlignment="Top" Width="443"/>
+        
+    </Grid>
+</Window>
